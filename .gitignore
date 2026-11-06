@@ -1,0 +1,60 @@
+### Environment secrets ###
+.env
+.env.*
+!.env.example
+
+### Java / Maven ###
+target/
+**/target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!backend/.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.jar
+
+### Kotlin ###
+.kotlin
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Logs ###
+*.log
+
+### Frontend ###
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+
+### OS ###
+.DS_Store
+Thumbs.db
